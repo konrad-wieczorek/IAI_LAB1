@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Motoryzacja</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+
+    <form>
+        <fieldset>
+            <legend>Uzupełnij dane:</legend>
+            <div class="row">
+                <div>Imię:</div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Podaj imię">
+                </div>
+                <div>Nazwisko:</div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Podaj nazwisko">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-6 col-form-label">E-mail:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Podaj: e-mail">
+                </div>
+            </div>
+
+            <div> Płeć: </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Kobieta</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Mężczyzna</label>
+            </div>
+
+            <div>Opis:</div>
+            <input type="text" name="nazwa" placeholder="Opisz Swoje zainteresowania">
+
+
+            <div class="form-group">
+                <label for="formControlRange">Wiek:</label>
+                <input type="range" class="form-control-range" id="formControlRange">
+            </div>
+
+            <div>Wybierz aktualny stan</div>
+            <select>
+                <option value="wartość1">Panna/Kawaler</option>
+                <option value="wartość2">Mąż/Żona</option>
+                <option value="wartość3">Wdow/Wdowiec</option>
+            </select>
+
+
+
+
+
+
+
+        </fieldset>
+    </form>
+
+</div>
+</body>
+</html>
