@@ -1,0 +1,25 @@
+body {
+    background-color: #C0C0C0; }
+
+a:hover {
+    background-color: blue; color: red
+}
+
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+li {
+
+    display: inline;
+}
+
+footer {
+    text-align: center;
+
+}
+
+
